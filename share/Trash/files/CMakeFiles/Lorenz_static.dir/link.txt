@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -pedantic -rdynamic CMakeFiles/Lorenz_static.dir/progs/demos/Lorenz/lorenz.c.o -o bin/Lorenz_static  -lX11 -lXrandr -lXxf86vm -lXi -lm -lGLU -lm lib/libglut.a -lX11 -lXrandr -lXxf86vm -lXi /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so -lm

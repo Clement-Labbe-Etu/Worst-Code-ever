@@ -1,0 +1,9 @@
+[stream-properties]
+Audio/Sink:node.name:auto_null={"channelMap":["FL", "FR"], "mute":true, "channelVolumes":[0.000000, 0.000000], "volume":1.000000}
+Output/Audio:application.name:Chromium={"volume":1.000000, "mute":false, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"]}
+Output/Audio:application.name:Firefox={"channelMap":["FL", "FR"], "mute":false, "channelVolumes":[1.000000, 1.000000], "volume":1.000000}
+Output/Audio:application.name:PipeWire\sALSA\s\ofluidsynth\c={"channelMap":["FL", "FR"], "mute":false, "channelVolumes":[1.000000, 1.000000], "volume":1.000000}
+Output/Audio:application.name:eSpeak={"volume":1.000000, "mute":false, "channelVolumes":[1.000000], "channelMap":["MONO"]}
+Output/Audio:application.name:speech-dispatcher-dummy={"volume":1.000000, "mute":false, "channelVolumes":[1.000000], "channelMap":["MONO"]}
+Output/Audio:application.name:speech-dispatcher-generic={"volume":1.000000, "mute":false, "channelVolumes":[1.000000], "channelMap":["MONO"]}
+Output/Audio:media.role:Notification={"channelMap":["FL", "FR"], "mute":false, "channelVolumes":[1.000000, 1.000000], "volume":1.000000}

@@ -1,0 +1,9 @@
+[restore-stream]
+Audio/Sink:node.name:auto_null:channelMap=FL;FR;
+Audio/Sink:node.name:auto_null:channelVolumes=1.0;1.0;
+Audio/Sink:node.name:auto_null:mute=false
+Audio/Sink:node.name:auto_null:volume=1.0
+Output/Audio:application.name:Brave:channelMap=FL;FR;
+Output/Audio:application.name:Brave:channelVolumes=1.0;1.0;
+Output/Audio:application.name:Brave:mute=false
+Output/Audio:application.name:Brave:volume=1.0

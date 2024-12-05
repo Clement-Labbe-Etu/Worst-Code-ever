@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=PyCharm Community 2024.2.3
+Exec="/opt/local/share/pycharm-community/bin/pycharm" %u
+Version=1.0
+Type=Application
+Categories=Development;IDE;
+Terminal=false
+Icon=/opt/local/share/pycharm-community/bin/pycharm.svg

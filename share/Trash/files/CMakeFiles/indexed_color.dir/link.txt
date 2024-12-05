@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -pedantic -rdynamic CMakeFiles/indexed_color.dir/progs/demos/indexed_color/idxcol.c.o -o bin/indexed_color  -Wl,-rpath,/net/cremi/cllabbe/freeglut/lib -lX11 -lXrandr -lXxf86vm -lXi -lm -lGLU -lm lib/libglut.so.3.12.1 -lX11 -lXrandr -lXxf86vm -lXi /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so -lm

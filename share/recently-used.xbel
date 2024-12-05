@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///net/cremi/cllabbe/discord-0.0.76.deb" added="2024-12-05T16:11:14.724926Z" modified="2024-12-05T16:16:15.645457Z" visited="2024-12-05T16:11:14.724928Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-12-05T16:13:57.221056Z" count="2"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2024-12-05T16:16:15.645455Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/cache-cllabbe/.fr-L5XFY2/debian-binary" added="2024-12-05T16:11:48.529310Z" modified="2024-12-05T16:11:48.529312Z" visited="2024-12-05T16:11:48.529310Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-12-05T16:11:48.529310Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/discord-0.0.76/control.tar.gz" added="2024-12-05T16:12:56.737858Z" modified="2024-12-05T16:12:56.737861Z" visited="2024-12-05T16:12:56.737859Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2024-12-05T16:12:56.737860Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Documents/.bashrc" added="2024-12-05T16:24:01.565775Z" modified="2024-12-05T16:24:48.379999Z" visited="2024-12-05T16:24:01.565775Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-12-05T16:24:48.379998Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/.bashrc" added="2024-12-05T16:24:39.329920Z" modified="2024-12-05T16:24:39.329922Z" visited="2024-12-05T16:24:39.329920Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-12-05T16:24:39.329921Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Captures%20d%E2%80%99%C3%A9cran/Capture%20d%E2%80%99%C3%A9cran%20du%202024-12-05%2017-28-04.png" added="2024-12-05T16:28:04.051120Z" modified="2024-12-05T16:28:04.051126Z" visited="2024-12-05T16:28:04.051121Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2024-12-05T16:28:04.051122Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/jetbrains-toolbox-2.5.2.35332.tar.gz" added="2024-12-05T16:29:48.505646Z" modified="2024-12-05T16:29:49.743649Z" visited="2024-12-05T16:29:48.505647Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-12-05T16:29:48.505648Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2024-12-05T16:29:49.743648Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/jetbrains.zip" added="2024-12-05T16:30:16.276291Z" modified="2024-12-05T16:30:16.276293Z" visited="2024-12-05T16:30:16.276292Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-12-05T16:30:16.276293Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Minecraft(2).deb" added="2024-12-05T18:23:37.990818Z" modified="2024-12-05T18:23:37.990823Z" visited="2024-12-05T18:23:37.990818Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-12-05T18:23:37.990819Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/minecraft-launcher" added="2024-12-05T18:40:19.015312Z" modified="2024-12-05T18:40:38.337963Z" visited="2024-12-05T18:40:19.015312Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-12-05T18:40:38.337961Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Captures%20d%E2%80%99%C3%A9cran/Capture%20d%E2%80%99%C3%A9cran%20du%202024-12-05%2019-40-36.png" added="2024-12-05T18:40:36.283050Z" modified="2024-12-05T18:40:36.283055Z" visited="2024-12-05T18:40:36.283051Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2024-12-05T18:40:36.283052Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Captures%20d%E2%80%99%C3%A9cran/Capture%20d%E2%80%99%C3%A9cran%20du%202024-12-05%2019-40-54.png" added="2024-12-05T18:40:54.839359Z" modified="2024-12-05T18:40:54.839362Z" visited="2024-12-05T18:40:54.839359Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2024-12-05T18:40:54.839360Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Captures%20d%E2%80%99%C3%A9cran/Capture%20d%E2%80%99%C3%A9cran%20du%202024-12-05%2019-42-18.png" added="2024-12-05T18:42:18.996842Z" modified="2024-12-05T18:42:18.996845Z" visited="2024-12-05T18:42:18.996843Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2024-12-05T18:42:18.996843Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Captures%20d%E2%80%99%C3%A9cran/Capture%20d%E2%80%99%C3%A9cran%20du%202024-12-05%2019-45-52.png" added="2024-12-05T18:45:52.524615Z" modified="2024-12-05T18:45:52.524617Z" visited="2024-12-05T18:45:52.524615Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2024-12-05T18:45:52.524616Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Captures%20d%E2%80%99%C3%A9cran/Capture%20d%E2%80%99%C3%A9cran%20du%202024-12-05%2019-58-12.png" added="2024-12-05T18:58:12.677645Z" modified="2024-12-05T18:58:12.677647Z" visited="2024-12-05T18:58:12.677645Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2024-12-05T18:58:12.677646Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Captures%20d%E2%80%99%C3%A9cran/Capture%20d%E2%80%99%C3%A9cran%20du%202024-12-05%2020-03-41.png" added="2024-12-05T19:03:41.392450Z" modified="2024-12-05T19:03:41.392454Z" visited="2024-12-05T19:03:41.392451Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2024-12-05T19:03:41.392452Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Captures%20d%E2%80%99%C3%A9cran/Capture%20d%E2%80%99%C3%A9cran%20du%202024-12-05%2020-14-55.png" added="2024-12-05T19:14:55.749913Z" modified="2024-12-05T19:14:55.749916Z" visited="2024-12-05T19:14:55.749914Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2024-12-05T19:14:55.749915Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Minecraft.deb" added="2024-12-05T19:19:41.869852Z" modified="2024-12-05T19:19:57.533665Z" visited="2024-12-05T19:19:41.869853Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-12-05T19:19:41.869854Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2024-12-05T19:19:57.533664Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe" added="2024-12-05T19:20:00.838073Z" modified="2024-12-05T19:20:00.838075Z" visited="2024-12-05T19:20:00.838073Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Gestionnaire d’archives" exec="&apos;file-roller %u&apos;" modified="2024-12-05T19:20:00.838074Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Mc" added="2024-12-05T19:20:25.371644Z" modified="2024-12-05T19:20:52.364568Z" visited="2024-12-05T19:20:25.371645Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-12-05T19:20:25.371645Z" count="1"/>
+          <bookmark:application name="Gestionnaire d’archives" exec="&apos;file-roller %u&apos;" modified="2024-12-05T19:20:52.364567Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Mc/Minecraft.deb" added="2024-12-05T19:20:45.915206Z" modified="2024-12-05T19:20:46.078634Z" visited="2024-12-05T19:20:45.915206Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;file-roller %U&apos;" modified="2024-12-05T19:20:45.915207Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2024-12-05T19:20:46.078633Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/rayCastingDDA-main.zip" added="2024-12-05T21:04:56.070542Z" modified="2024-12-05T21:04:56.070546Z" visited="2024-12-05T21:04:56.070542Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-12-05T21:04:56.070544Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/images.jpeg" added="2024-12-05T21:13:54.634769Z" modified="2024-12-05T21:13:54.930101Z" visited="2024-12-05T21:13:54.634769Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-12-05T21:13:54.930099Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/mesa-24.3.1.tar.xz" added="2024-12-05T21:19:35.844854Z" modified="2024-12-05T21:19:35.844858Z" visited="2024-12-05T21:19:35.844855Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-12-05T21:19:35.844856Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Worst-Code-ever/mesa-24.3.1.tar.xz" added="2024-12-05T21:19:46.075215Z" modified="2024-12-05T21:19:47.614796Z" visited="2024-12-05T21:19:46.075216Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;file-roller %U&apos;" modified="2024-12-05T21:19:46.075216Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2024-12-05T21:19:47.614795Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/Worst-Code-ever/mesa-24.3.1/bin/meson.build" added="2024-12-05T21:21:54.897578Z" modified="2024-12-05T21:21:54.897580Z" visited="2024-12-05T21:21:54.897579Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-meson"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-12-05T21:21:54.897579Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/freeglut-3.6.0.tar.gz" added="2024-12-05T21:24:25.147708Z" modified="2024-12-05T21:24:25.147713Z" visited="2024-12-05T21:24:25.147709Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-12-05T21:24:25.147710Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///net/cremi/cllabbe/freeglut" added="2024-12-05T21:25:21.475357Z" modified="2024-12-05T21:25:21.475359Z" visited="2024-12-05T21:25:21.475357Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-12-05T21:25:21.475358Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

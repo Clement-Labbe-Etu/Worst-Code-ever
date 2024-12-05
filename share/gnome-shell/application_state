@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.FileRoller.desktop" score="8" last-seen="1733433588"/>
+    <application id="google-chrome.desktop" score="12" last-seen="1733416435"/>
+    <application id="org.gnome.Software.desktop" score="0" last-seen="1733417419"/>
+    <application id="org.gnome.gedit.desktop" score="6" last-seen="1733433718"/>
+    <application id="org.gnome.Nautilus.desktop" score="97" last-seen="1733435563"/>
+    <application id="cmake-gui.desktop" score="0" last-seen="1733423593"/>
+    <application id="gnome-initial-setup.desktop" score="1" last-seen="1733414708"/>
+    <application id="org.gnome.Terminal.desktop" score="444" last-seen="1733435555"/>
+    <application id="xpdf.desktop" score="0" last-seen="1733423578"/>
+    <application id="code.desktop" score="700" last-seen="1733433503"/>
+    <application id="firefox-esr.desktop" score="770" last-seen="1733433867"/>
+    <application id="org.gnome.Settings.desktop" score="19" last-seen="1733417508"/>
+  </context>
+</application-state>

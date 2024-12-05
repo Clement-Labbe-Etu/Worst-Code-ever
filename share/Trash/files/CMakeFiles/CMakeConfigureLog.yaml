@@ -1,0 +1,856 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      The system is: Linux - 6.1.0-28-amd64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /net/cremi/cllabbe/freeglut/CMakeFiles/3.30.5/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-krjlyr"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-krjlyr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-krjlyr'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c08e6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c08e6.dir/build.make CMakeFiles/cmTC_c08e6.dir/build
+        gmake[1]: Entering directory '/autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-krjlyr'
+        Building C object CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (Debian 12.2.0-14) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c08e6.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c08e6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/cache-cllabbe/ccgEPZp1.s
+        GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+        
+        warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/12/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+        
+        warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: cc72d2b9b5048fedc2be9051c917b40b
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c08e6.dir/'
+         as -v --64 -o CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o /tmp/cache-cllabbe/ccgEPZp1.s
+        GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_c08e6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c08e6.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -Wl,-v -rdynamic CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o -o cmTC_c08e6
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (Debian 12.2.0-14) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c08e6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c08e6.'
+         /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cache-cllabbe/ccnlUxeV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c08e6 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. -v CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 12.2.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cache-cllabbe/ccnlUxeV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c08e6 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. -v CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.40
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c08e6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c08e6.'
+        gmake[1]: Leaving directory '/autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-krjlyr'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-krjlyr']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c08e6/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_c08e6.dir/build.make CMakeFiles/cmTC_c08e6.dir/build]
+        ignore line: [gmake[1]: Entering directory '/autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-krjlyr']
+        ignore line: [Building C object CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c08e6.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c08e6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/cache-cllabbe/ccgEPZp1.s]
+        ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: cc72d2b9b5048fedc2be9051c917b40b]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c08e6.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o /tmp/cache-cllabbe/ccgEPZp1.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_c08e6]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c08e6.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -Wl -v -rdynamic CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o -o cmTC_c08e6]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c08e6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c08e6.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cache-cllabbe/ccnlUxeV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c08e6 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. -v CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cache-cllabbe/ccnlUxeV.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c08e6] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 12.2.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cache-cllabbe/ccnlUxeV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c08e6 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. -v CMakeFiles/cmTC_c08e6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.40
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.30/Modules/FindX11.cmake:693 (check_library_exists)"
+      - "CMakeLists.txt:298 (FIND_PACKAGE)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-PmJAaM"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-PmJAaM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-PmJAaM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4c4a1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4c4a1.dir/build.make CMakeFiles/cmTC_4c4a1.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-PmJAaM »
+        Building C object CMakeFiles/cmTC_4c4a1.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_4c4a1.dir/CheckFunctionExists.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-PmJAaM/CheckFunctionExists.c
+        Linking C executable cmTC_4c4a1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c4a1.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay -rdynamic CMakeFiles/cmTC_4c4a1.dir/CheckFunctionExists.c.o -o cmTC_4c4a1  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-PmJAaM »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.30/Modules/FindX11.cmake:708 (check_function_exists)"
+      - "CMakeLists.txt:298 (FIND_PACKAGE)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-TOifiW"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-TOifiW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-TOifiW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_97c58/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_97c58.dir/build.make CMakeFiles/cmTC_97c58.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-TOifiW »
+        Building C object CMakeFiles/cmTC_97c58.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_97c58.dir/CheckFunctionExists.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-TOifiW/CheckFunctionExists.c
+        Linking C executable cmTC_97c58
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97c58.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname -rdynamic CMakeFiles/cmTC_97c58.dir/CheckFunctionExists.c.o -o cmTC_97c58
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-TOifiW »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.30/Modules/FindX11.cmake:722 (check_function_exists)"
+      - "CMakeLists.txt:298 (FIND_PACKAGE)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-YcTLdf"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-YcTLdf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-YcTLdf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_28801/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_28801.dir/build.make CMakeFiles/cmTC_28801.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-YcTLdf »
+        Building C object CMakeFiles/cmTC_28801.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_28801.dir/CheckFunctionExists.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-YcTLdf/CheckFunctionExists.c
+        Linking C executable cmTC_28801
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28801.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect -rdynamic CMakeFiles/cmTC_28801.dir/CheckFunctionExists.c.o -o cmTC_28801
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-YcTLdf »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.30/Modules/FindX11.cmake:731 (check_function_exists)"
+      - "CMakeLists.txt:298 (FIND_PACKAGE)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-CuBV2F"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-CuBV2F"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-CuBV2F'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ac8c3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ac8c3.dir/build.make CMakeFiles/cmTC_ac8c3.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-CuBV2F »
+        Building C object CMakeFiles/cmTC_ac8c3.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_ac8c3.dir/CheckFunctionExists.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-CuBV2F/CheckFunctionExists.c
+        Linking C executable cmTC_ac8c3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac8c3.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove -rdynamic CMakeFiles/cmTC_ac8c3.dir/CheckFunctionExists.c.o -o cmTC_ac8c3
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-CuBV2F »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.30/Modules/FindX11.cmake:740 (check_function_exists)"
+      - "CMakeLists.txt:298 (FIND_PACKAGE)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-3qoeVy"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-3qoeVy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-3qoeVy'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_41ee6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_41ee6.dir/build.make CMakeFiles/cmTC_41ee6.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-3qoeVy »
+        Building C object CMakeFiles/cmTC_41ee6.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_41ee6.dir/CheckFunctionExists.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-3qoeVy/CheckFunctionExists.c
+        Linking C executable cmTC_41ee6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41ee6.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat -rdynamic CMakeFiles/cmTC_41ee6.dir/CheckFunctionExists.c.o -o cmTC_41ee6
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-3qoeVy »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.30/Modules/FindX11.cmake:750 (check_library_exists)"
+      - "CMakeLists.txt:298 (FIND_PACKAGE)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-8QOIU8"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-8QOIU8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-8QOIU8'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_31c44/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_31c44.dir/build.make CMakeFiles/cmTC_31c44.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-8QOIU8 »
+        Building C object CMakeFiles/cmTC_31c44.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_31c44.dir/CheckFunctionExists.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-8QOIU8/CheckFunctionExists.c
+        Linking C executable cmTC_31c44
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31c44.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -rdynamic CMakeFiles/cmTC_31c44.dir/CheckFunctionExists.c.o -o cmTC_31c44  -lICE
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-8QOIU8 »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:311 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file /usr/include/X11/extensions/XInput2.h"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-y6mXPR"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-y6mXPR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "HAVE_X11_EXTENSIONS_XINPUT2_H"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-y6mXPR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2bf2a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2bf2a.dir/build.make CMakeFiles/cmTC_2bf2a.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-y6mXPR »
+        Building C object CMakeFiles/cmTC_2bf2a.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_2bf2a.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-y6mXPR/HAVE_X11_EXTENSIONS_XINPUT2_H.c
+        Linking C executable cmTC_2bf2a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bf2a.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_2bf2a.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o -o cmTC_2bf2a
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-y6mXPR »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:473 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ru6c6R"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ru6c6R"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ru6c6R'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ad8ef/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ad8ef.dir/build.make CMakeFiles/cmTC_ad8ef.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ru6c6R »
+        Building C object CMakeFiles/cmTC_ad8ef.dir/HAVE_SYS_TYPES_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_ad8ef.dir/HAVE_SYS_TYPES_H.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ru6c6R/HAVE_SYS_TYPES_H.c
+        Linking C executable cmTC_ad8ef
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad8ef.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_ad8ef.dir/HAVE_SYS_TYPES_H.c.o -o cmTC_ad8ef
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ru6c6R »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:474 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-nvLKLY"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-nvLKLY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-nvLKLY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3c84c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3c84c.dir/build.make CMakeFiles/cmTC_3c84c.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-nvLKLY »
+        Building C object CMakeFiles/cmTC_3c84c.dir/HAVE_UNISTD_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_3c84c.dir/HAVE_UNISTD_H.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-nvLKLY/HAVE_UNISTD_H.c
+        Linking C executable cmTC_3c84c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c84c.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_3c84c.dir/HAVE_UNISTD_H.c.o -o cmTC_3c84c
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-nvLKLY »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:475 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/time.h"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-3EuMWX"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-3EuMWX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-3EuMWX'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ab9fa/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ab9fa.dir/build.make CMakeFiles/cmTC_ab9fa.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-3EuMWX »
+        Building C object CMakeFiles/cmTC_ab9fa.dir/HAVE_SYS_TIME_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_ab9fa.dir/HAVE_SYS_TIME_H.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-3EuMWX/HAVE_SYS_TIME_H.c
+        Linking C executable cmTC_ab9fa
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab9fa.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_ab9fa.dir/HAVE_SYS_TIME_H.c.o -o cmTC_ab9fa
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-3EuMWX »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:476 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdbool.h"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-PQLQZh"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-PQLQZh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-PQLQZh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d8db/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1d8db.dir/build.make CMakeFiles/cmTC_1d8db.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-PQLQZh »
+        Building C object CMakeFiles/cmTC_1d8db.dir/HAVE_STDBOOL_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_1d8db.dir/HAVE_STDBOOL_H.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-PQLQZh/HAVE_STDBOOL_H.c
+        Linking C executable cmTC_1d8db
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d8db.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_1d8db.dir/HAVE_STDBOOL_H.c.o -o cmTC_1d8db
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-PQLQZh »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:477 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/param.h"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-6xDw6I"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-6xDw6I"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-6xDw6I'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b18b8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b18b8.dir/build.make CMakeFiles/cmTC_b18b8.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-6xDw6I »
+        Building C object CMakeFiles/cmTC_b18b8.dir/HAVE_SYS_PARAM_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_b18b8.dir/HAVE_SYS_PARAM_H.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-6xDw6I/HAVE_SYS_PARAM_H.c
+        Linking C executable cmTC_b18b8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b18b8.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_b18b8.dir/HAVE_SYS_PARAM_H.c.o -o cmTC_b18b8
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-6xDw6I »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:478 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/ioctl.h"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZFR8B0"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZFR8B0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZFR8B0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_85388/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_85388.dir/build.make CMakeFiles/cmTC_85388.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZFR8B0 »
+        Building C object CMakeFiles/cmTC_85388.dir/HAVE_SYS_IOCTL_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_85388.dir/HAVE_SYS_IOCTL_H.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZFR8B0/HAVE_SYS_IOCTL_H.c
+        Linking C executable cmTC_85388
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85388.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_85388.dir/HAVE_SYS_IOCTL_H.c.o -o cmTC_85388
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZFR8B0 »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:479 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file fcntl.h"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-fLYr54"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-fLYr54"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-fLYr54'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_eec20/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_eec20.dir/build.make CMakeFiles/cmTC_eec20.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-fLYr54 »
+        Building C object CMakeFiles/cmTC_eec20.dir/HAVE_FCNTL_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_eec20.dir/HAVE_FCNTL_H.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-fLYr54/HAVE_FCNTL_H.c
+        Linking C executable cmTC_eec20
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eec20.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_eec20.dir/HAVE_FCNTL_H.c.o -o cmTC_eec20
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-fLYr54 »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:480 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file usbhid.h"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZbNNXm"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZbNNXm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_USBHID_H"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZbNNXm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_88845/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_88845.dir/build.make CMakeFiles/cmTC_88845.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZbNNXm »
+        Building C object CMakeFiles/cmTC_88845.dir/HAVE_USBHID_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_88845.dir/HAVE_USBHID_H.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZbNNXm/HAVE_USBHID_H.c
+        /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZbNNXm/HAVE_USBHID_H.c:2:10: fatal error: usbhid.h: Aucun fichier ou dossier de ce type
+            2 | #include <usbhid.h>
+              |          ^~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_88845.dir/build.make:78 : CMakeFiles/cmTC_88845.dir/HAVE_USBHID_H.c.o] Erreur 1
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-ZbNNXm »
+        gmake: *** [Makefile:127 : cmTC_88845/fast] Erreur 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:481 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-jT27de"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-jT27de"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-jT27de'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0b138/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0b138.dir/build.make CMakeFiles/cmTC_0b138.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-jT27de »
+        Building C object CMakeFiles/cmTC_0b138.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -o CMakeFiles/cmTC_0b138.dir/CheckFunctionExists.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-jT27de/CheckFunctionExists.c
+        Linking C executable cmTC_0b138
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b138.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -rdynamic CMakeFiles/cmTC_0b138.dir/CheckFunctionExists.c.o -o cmTC_0b138  -lm
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-jT27de »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:482 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for XParseGeometry"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-KoomZj"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-KoomZj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_XPARSEGEOMETRY"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-KoomZj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5d524/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5d524.dir/build.make CMakeFiles/cmTC_5d524.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-KoomZj »
+        Building C object CMakeFiles/cmTC_5d524.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -o CMakeFiles/cmTC_5d524.dir/CheckFunctionExists.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-KoomZj/CheckFunctionExists.c
+        Linking C executable cmTC_5d524
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d524.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -rdynamic CMakeFiles/cmTC_5d524.dir/CheckFunctionExists.c.o -o cmTC_5d524  -lm
+        /usr/bin/ld : CMakeFiles/cmTC_5d524.dir/CheckFunctionExists.c.o : dans la fonction « main » :
+        CheckFunctionExists.c:(.text+0x10) : référence indéfinie vers « XParseGeometry »
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_5d524.dir/build.make:99 : cmTC_5d524] Erreur 1
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-KoomZj »
+        gmake: *** [Makefile:127 : cmTC_5d524/fast] Erreur 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:490 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-fCRKW0"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-fCRKW0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-fCRKW0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4eee0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4eee0.dir/build.make CMakeFiles/cmTC_4eee0.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-fCRKW0 »
+        Building C object CMakeFiles/cmTC_4eee0.dir/HAVE_STDINT_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_4eee0.dir/HAVE_STDINT_H.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-fCRKW0/HAVE_STDINT_H.c
+        Linking C executable cmTC_4eee0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4eee0.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_4eee0.dir/HAVE_STDINT_H.c.o -o cmTC_4eee0
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-fCRKW0 »
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:491 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-9zfw3S"
+      binary: "/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-9zfw3S"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-9zfw3S'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a0fa7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a0fa7.dir/build.make CMakeFiles/cmTC_a0fa7.dir/build
+        gmake[1] : on entre dans le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-9zfw3S »
+        Building C object CMakeFiles/cmTC_a0fa7.dir/HAVE_INTTYPES_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_a0fa7.dir/HAVE_INTTYPES_H.c.o -c /net/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-9zfw3S/HAVE_INTTYPES_H.c
+        Linking C executable cmTC_a0fa7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0fa7.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_a0fa7.dir/HAVE_INTTYPES_H.c.o -o cmTC_a0fa7
+        gmake[1] : on quitte le répertoire « /autofs/unityaccount/cremi/cllabbe/freeglut/CMakeFiles/CMakeScratch/TryCompile-9zfw3S »
+        
+      exitCode: 0
+...

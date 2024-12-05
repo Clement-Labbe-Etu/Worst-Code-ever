@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>Utilisation des liens dans Gnote</title><text xml:space="preserve"><note-content>Utilisation des liens dans Gnote
+
+Dans Gnote, les notes peuvent être liées en sélectionnant du texte dans la note actuelle et en cliquant sur le bouton <bold>Lier</bold> dans la barre d’outils. Cela va créer une nouvelle note et souligner le titre de cette nouvelle note dans le texte de la note actuelle.
+
+La modification du titre d’une note met à jour les liens se trouvant dans d’autres notes. Cela évite de casser des liens lorsque le titre d’une note est modifié.
+
+De même, si vous écrivez le nom d’une autre note dans la note actuelle, un lien sera automatiquement créé vers cette note.</note-content></text><last-change-date>2024-12-05T16:04:35,578302Z</last-change-date><last-metadata-change-date>2024-12-05T16:04:35,578302Z</last-metadata-change-date><create-date>2024-12-05T16:04:35,577909Z</create-date><cursor-position>-1</cursor-position><selection-bound-position>-1</selection-bound-position><width>0</width><height>0</height></note>
+
