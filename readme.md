@@ -58,12 +58,20 @@ Démontrer qu'avec suffisamment de créativité (et de folie), on peut transform
 
 **CE CODE EST UN CRIME CONTRE L'INFORMATIQUE** 🚨
 
-## 🤓 Compilation
+## 🤓 Compilation & execuption 
 
 ```bash
 # Bon courage...
 gcc -o main main.c -lGL -lGLU -lglut -lm 
 ```
+
+```bash
+./main
+```
+
+## Utilisation 
+
+Le personnage se déplace à l'aide de `ZQSD` et est bloqué au début du jeu. Pour le débloquer, il suffit de le faire tourner avec `Q` ou `D`.
 
 ## 🌟 Nos Héros
 - Les développeurs qui ont survécu à sa création
