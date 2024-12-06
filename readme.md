@@ -62,7 +62,7 @@ Démontrer qu'avec suffisamment de créativité (et de folie), on peut transform
 
 ```bash
 # Bon courage...
-gcc -lGL -lGLU -lglut ndi_2024_worst_code.c -o game
+gcc -o main main.c -lGL -lGLU -lglut -lm 
 ```
 
 ## 🌟 Nos Héros
