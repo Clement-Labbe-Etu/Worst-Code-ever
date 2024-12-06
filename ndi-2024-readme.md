@@ -1,0 +1,74 @@
+# 🏆 Nuit de l'Info 2024: The Worst Code Ever Challenge
+
+## 🤔 Le Concept
+
+Pour l'édition 2024 de la Nuit de l'Info, notre équipe a poussé l'art de l'illisibilité à son paroxysme. Non content de détourner les mots-clés et les types, nous avons carrément remplacé les caractères de syntaxe !
+
+## 🧩 Techniques d'Obfuscation Extrêmes
+
+### 1. Syntaxe Secrète
+Nous avons remplacé les caractères de syntaxe fondamentaux par des alternatives absurdes :
+- `{` → `é`
+- `}` → `è`
+- `;` → `findeligne`
+- `(` → `parentheseouvrante`
+- `)` → `parenthesefermante`
+
+Résultat : un code qui ressemble à tout, sauf à du code !
+
+### 2. Définitions Macros Absurdes
+Continuation de notre folie avec des remplacements de types :
+- `#define string void`
+- `#define boolean struct`
+- `#define triple double`
+- `#define hulahoop for`
+- `#define maybe if`
+
+### 3. Nommage Cryptique
+Des noms de fonctions et variables qui défient la compréhension :
+- `LafonctiondisplayMapparcouruntableaumapdetaille5x5...`
+- `E4BD8DE7BDAE78`
+- `quelestleXleplusprochedemoi()`
+
+### 4. Logique de Contrôle Déroutante
+- `maybe` au lieu de `if`
+- `planB` remplace `else`
+- `pourboire` pour `return`
+- `routeur` pour `switch`
+
+## ET BIEN PLUS ENCORE...
+
+## 🎮 Contexte du Projet
+
+Un jeu OpenGL avec une grille et un joueur, transformé en énigme syntaxique totale.
+
+## 🤯 Défi Ultime de Lecture
+
+Essayé de decoder tout le code
+
+## 🏅 Philosophie
+
+Démontrer qu'avec suffisamment de créativité (et de folie), on peut transformer du code fonctionnel en un rébus informatique.
+
+## ⚠️ Avertissement Solennel
+
+**CE CODE EST UN CRIME CONTRE L'INFORMATIQUE** 🚨
+
+## 🤓 Compilation
+
+```bash
+# Bon courage...
+gcc -lGL -lGLU -lglut ndi_2024_worst_code.c -o game
+```
+
+## 🌟 Nos Héros
+- Les développeurs qui ont survécu à sa création
+- Les futurs lecteurs qui perdront la raison
+
+## 🎉 Conclusion
+
+Entre art moderne et terrorisme syntaxique, vous êtes libres de choisir ! 🎨💻
+
+---
+
+*Dédié à tous les développeurs qui ont senti leur cerveau fondre en lisant ce code*
