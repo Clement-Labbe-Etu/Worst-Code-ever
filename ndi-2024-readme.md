@@ -27,7 +27,7 @@ Continuation de notre folie avec des remplacements de types :
 ### 3. Nommage Cryptique
 Des noms de fonctions et variables qui défient la compréhension :
 - `LafonctiondisplayMapparcouruntableaumapdetaille5x5...`
-- `E4BD8DE7BDAE78`
+- `E4BD8DE7BDAE78` qui est en réalité un vrai nom de fonction traduit en chinois puis passé dans la table UTF8
 - `quelestleXleplusprochedemoi()`
 
 ### 4. Logique de Contrôle Déroutante
@@ -35,6 +35,10 @@ Des noms de fonctions et variables qui défient la compréhension :
 - `planB` remplace `else`
 - `pourboire` pour `return`
 - `routeur` pour `switch`
+
+### 5. Ajout d'espaces illogiques 
+
+Grâce à un script `Python` remplaçant les espaces par un nombre aléatoire d'espaces !
 
 ## ET BIEN PLUS ENCORE...
 
